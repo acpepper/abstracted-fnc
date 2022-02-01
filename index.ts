@@ -3,7 +3,7 @@ export function newFunc(a: number, b: number, coeffs: Array<number>) {
 }
 
 export function newApp1(a: number, b: number) {
-  return newFunc(a, b, [-1, 2, 1, 1]);
+  return newFunc(Number(a), Number(b), [-1, 2, 1, 1]);
 }
 
 export function newApp2(a: number, b: number) {
